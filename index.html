@@ -1,39 +1,54 @@
 ---
-title: "Welcome!"
+title: "Intelligence Engineering Lab"
 layout: splash
 permalink: index.html
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/labtop.jpg
-intro: 
-  - excerpt: "Intelligence Egineering Lab은 인간과 컴퓨터와의 소통과 협력을 혁신하여 지식사회 발전의 중심적 축을 이루는 학문을 연구합니다."
-feature_row:
-  - image_path: https://tdwi.org/~/media/TDWI/TDWI/BITW/datamgt3.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  overlay_image: https://static.pexels.com/photos/11406/c12ee0f379643a278198b2086afd3b9c.jpg #/assets/images/labtop.jpg
+  cta_url: /contactus.html
+  cta_label: "Contact us!"
+  caption: "Lyceum 321B, 145, Anam-ro, Seongbuk-gu, Seoul, Korea"
+  image_head_txt: "Intelligence Engineering Lab"
+excerpt: "Welcome to the website of Intelligence Engineering Laboratory. Our laboratory conducts researches on Large-scale data Engineering, Data mining &  Knowledge Discovery, Distributed and Parallel Query Processing, Deep Learning, Spatio-temporal Data analysis, and Biomedical Text Mining. If you would like to get further information regarding our lab, please feel free to click the button below."
 
-  - image_path: https://i2.wp.com/www.girtmobile.com/content/uploads/2016/07/DataMining.jpg
+feature_row:
+  - image_path:  assets/images/distributed.png
+    alt: "placeholder image 1"
+    title: "Big Data Analysis Platform"
+    excerpt: "Distributed and Parallel Algorithms, Distributed Data Management for Big Data"
+    url: "bigdata"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+  - image_path: assets/images/stolap.png
     alt: "placeholder image 2"
-    title: "Placeholder 2"
+    title: "Deep Learning based Intelligence"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-  - image_path: https://www.ucl.ac.uk/sta/images/sta-1-ed-manley
-    title: "Placeholder 3"
+  - image_path: assets/images/stolap.png 
+    title: "Text Mining"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
 ---
 
-{% include feature_row id="intro" type="center" %}
+
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row2" type="left" %}
 
-{% include feature_row id="feature_row3" type="right" %}
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
-{% include feature_row id="feature_row4" type="center" %}
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
+

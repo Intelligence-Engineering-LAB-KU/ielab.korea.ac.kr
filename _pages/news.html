@@ -1,0 +1,14 @@
+---
+layout: archive
+permalink: news.html
+
+
+---
+
+<div class="grid__wrapper">
+  {% for post in site.posts %}
+    {{ post.category }}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+

@@ -5,7 +5,7 @@
 #main {
   @include clearfix;
   margin-left: auto;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-right: auto;
   padding-left: 1em;
   padding-right: 1em;
@@ -126,7 +126,7 @@
 
 .page__hero {
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   @include clearfix;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -135,8 +135,8 @@
 
   &--overlay {
     position: relative;
-    margin-bottom: 2em;
-    padding: 3em 0;
+    margin-bottom: 1.5em;
+    padding: 1em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -145,7 +145,6 @@
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
-
     a {
       color: #fff;
     }
@@ -183,7 +182,7 @@
 
 .page__hero-image {
   width: 100%;
-  height: auto;
+  height: 20%;
   -ms-interpolation-mode: bicubic;
 }
 
