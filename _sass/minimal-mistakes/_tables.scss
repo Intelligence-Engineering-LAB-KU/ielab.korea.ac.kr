@@ -31,7 +31,18 @@ td {
 }
 
 tr,
-td,
+td{
+ text-align: left;
+}
+
 th {
   vertical-align: middle;
+}
+
+.table{
+.pure-table{
+ .td{
+	 text-align: left;
+}
+}
 }

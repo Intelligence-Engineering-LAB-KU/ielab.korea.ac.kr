@@ -6,6 +6,8 @@ main:
     url: /about.html
   - title: "People"
     url: /people.html
+  - title: "Publication"
+    url: /publication.html
   - title: "Seminar"
     url: /seminar.html
   - title: "News"
