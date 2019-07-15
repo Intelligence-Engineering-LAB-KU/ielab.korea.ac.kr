@@ -398,7 +398,7 @@ excerpt: "구성원"
 <td>Woosung Choi (최우성)</td></tr>
 <tr>
 <td><i class="fas fa-fw fa-envelope-square"></i><a href="mailto:ws_choi@korea.ac.kr">ws_choi AT korea.ac.kr</a><br />
-<i class="fa fa-home"></i><a href="https://ws-choi.github.io/" target="_blank">https://ws-choi.github.io/</a>
+<i class="fa fa-home"></i><a href="http://intelligence.korea.ac.kr/members/wschoi/" target="_blank">http://intelligence.korea.ac.kr/members/wschoi/</a>
 </td></tr>
 <tr>
 <td>

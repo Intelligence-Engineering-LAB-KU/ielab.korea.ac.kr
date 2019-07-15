@@ -9,9 +9,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Intelligence Engineering Lab"
+title                    : "Intelligence Engineering Lab | Korea University"
 title_separator          : "|"
-name                     : "Woosung CHOI"
+name                     : "Intelligence Engineering Lab @ Korea University"
 description              : "Welcome!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"

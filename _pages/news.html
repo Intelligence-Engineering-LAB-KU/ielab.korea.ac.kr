@@ -7,8 +7,10 @@ permalink: news.html
 
 <div class="grid__wrapper">
   {% for post in site.posts %}
-    {{ post.category }}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
+	{% unless post.private %}
+<!--{{ post.category }} --> 
+    	{% include archive-single.html type="grid" %}
+	{% endunless %}
+	{% endfor %}
 </div>
 

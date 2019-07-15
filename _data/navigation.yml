@@ -10,9 +10,13 @@ main:
     url: /publication.html
   - title: "Seminar"
     url: /seminar.html
+  - title: "Teaching"
+    url: /teaching.html
   - title: "News"
     url: /news.html
-  # - title: "Sample Posts"
+#  - title: "Members only"
+#    url: /membersonly.html
+# - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/

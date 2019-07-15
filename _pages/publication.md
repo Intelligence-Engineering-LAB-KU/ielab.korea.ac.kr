@@ -3,6 +3,8 @@ layout: single
 permalink: publication.html
 ---
 
+(deprecated) this page is not updated yet.
+
 ## International Journal
 
 - YoungHee Jung,Kinam Park,JeongMin Chae,SoonYoung Jung "UMLS Toolbox: TheHierarchical Navigation Toolwith Supproting theCustomization of Ontology" Advances in Computational Science and Engineering (SCOPUS), to appear (2014)

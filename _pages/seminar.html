@@ -6,12 +6,10 @@ permalink: seminar.html
 ---
 
 <div class="grid__wrapper">
-  {% for post in site.posts%}
-	{% if post.categories contains 'seminar' %}
-<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
-	{% endif %}
-  {% endfor %}
-</div>
-
-
+	{% for post in site.posts %}
+		{% if post.category contains 'seminar' %}
+		{% include archive-single.html  %}
+		{% endif %}
+	{% endfor %}
+</div
 

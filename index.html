@@ -1,5 +1,5 @@
 ---
-title: "Intelligence Engineering Lab"
+title: "Korea University: Intelligence Engineering Lab"
 layout: splash
 permalink: index.html
 date: 2016-03-23T11:48:41-04:00
@@ -9,8 +9,8 @@ header:
   overlay_image: https://static.pexels.com/photos/11406/c12ee0f379643a278198b2086afd3b9c.jpg #/assets/images/labtop.jpg
   cta_url: /contactus.html
   cta_label: "Contact us!"
-  caption: "Lyceum 321B, 145, Anam-ro, Seongbuk-gu, Seoul, Korea"
-  image_head_txt: "Intelligence Engineering Lab"
+  caption: "Lyceum 321B, KOREA UNIVERSITY, Anam-ro 145, Seongbuk-gu, Seoul, Korea"
+  image_head_txt: "Intelligence Engineering Lab @ Korea University"
 excerpt: "Welcome to the website of Intelligence Engineering Laboratory. Our laboratory conducts researches on Large-scale data Engineering, Data mining &  Knowledge Discovery, Distributed and Parallel Query Processing, Deep Learning, Spatio-temporal Data analysis, and Biomedical Text Mining. If you would like to get further information regarding our lab, please feel free to click the button below."
 
 feature_row:
@@ -18,14 +18,14 @@ feature_row:
     alt: "Big Data"
     title: "Big Data Analysis Platform"
     excerpt: "Distributed and Parallel Algorithms, Distributed Data Management for"
-    url: "bigdata"
+    url: "fixpage.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-  - image_path: assets/images/deepnlp.png
+  - image_path: assets/images/deepnlp2.png
     title: "Deep Learning-based Natural Language Processing"
     excerpt: "Natural Language Processing, Text Mining With Deep Laerning"
-    url: "nlp-with-deeplearning"
+    url: "fixpage.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -33,7 +33,7 @@ feature_row:
     alt: "Spatio-temporal Online Analytic Processing"
     title: "Spatio-temporal Data Analysis"
     excerpt: "STOLAP(SpatioTemproal OnLine Analytic Processing), Trajectory Mining"
-    url: "stolap"
+    url: "fixpage.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -46,9 +46,12 @@ feature_row:
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
+{% for post in site.posts %}
+	{% unless post.private %}
+		{% include archive-single.html %}
+	{% endunless %}
 {% endfor %}
 
-{% include paginator.html %}
+<!-- {% for post in paginator.posts %} -->
+<!-- {% include paginator.html %} --> 
 
