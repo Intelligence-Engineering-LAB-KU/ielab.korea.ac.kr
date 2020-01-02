@@ -17,8 +17,8 @@ category: seminar
 
 - [Logistic Regression 이론](http://intelligence.korea.ac.kr/members/wschoi/deeplearning/Logistic-Regression/)
 - [Logistic Regression 실전: And Gate 만들어보기 (Python)](http://intelligence.korea.ac.kr/members/wschoi/deeplearning/and_gate_with_logistic_regression/)
-- [Multi-Layer Neural Network](http://intelligence.korea.ac.kr/members/wschoi/deeplearning/Multi-Layer-Neural-Network/) **(미완)**
-- [Multi-Layer Neural Network의 실전: XOR Gate 만들어보기 (Python)](http://intelligence.korea.ac.kr/members/wschoi/deeplearning/xor-gate-multilayer-neural-network/) **(미완)**
+- [Multi-Layer Neural Network](http://intelligence.korea.ac.kr/members/wschoi/deeplearning/Multi-Layer-Neural-Network/) 
+- [Multi-Layer Neural Network의 실전: XOR Gate 만들어보기 (Python)](http://intelligence.korea.ac.kr/members/wschoi/deeplearning/xor-gate-multilayer-neural-network/)
 
 **Neural Network -based Language Model:**
 

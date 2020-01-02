@@ -103,6 +103,7 @@
 
   .archive__item-excerpt {
     margin-bottom: 0;
+	font-size: $type-size-10;
   }
 }
 
@@ -120,6 +121,6 @@
 }
 .archive__item-excerpt .ais-Highlight {
   color: $link-color;
-  font-style: normal;
+  font-style: $type-size-10;
   font-weight: bold;
 }

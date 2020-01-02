@@ -14,11 +14,11 @@ header:
 excerpt: "Welcome to the website of Intelligence Engineering Laboratory. Our laboratory conducts researches on Large-scale data Engineering, Data mining &  Knowledge Discovery, Distributed and Parallel Query Processing, Deep Learning, Spatio-temporal Data analysis, and Biomedical Text Mining. If you would like to get further information regarding our lab, please feel free to click the button below."
 
 feature_row:
-  - image_path:  assets/images/distributed.png
-    alt: "Big Data"
-    title: "Big Data Analysis Platform"
-    excerpt: "Distributed and Parallel Algorithms, Distributed Data Management for"
-    url: "fixpage.html"
+  - image_path: assets/images/bss.png
+    alt: "BSS"
+    title: "Deep Learning Based Acoustic Source Separation"
+    excerpt: "Speech Enhancement, Singing Voice Separation, Noice Canceling"
+    url: "bss.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -44,14 +44,11 @@ feature_row:
 {% include feature_row %}
 
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Selected Posts" }}</h3>
 
 {% for post in site.posts %}
-	{% unless post.private %}
+	{% if post.current %}
 		{% include archive-single.html %}
-	{% endunless %}
+	{% endif %}
 {% endfor %}
-
-<!-- {% for post in paginator.posts %} -->
-<!-- {% include paginator.html %} --> 
 

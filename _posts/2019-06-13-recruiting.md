@@ -1,6 +1,7 @@
 ---
 title: "We are seeking a highly motivated person!"
 layout: noname
+current: true
 ---
 
 2020학년도 1학기 신입생(석사/박사/석박사통합과정생)을 모집합니다.

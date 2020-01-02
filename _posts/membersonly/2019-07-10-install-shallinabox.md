@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Shellinabox 설치 및 proxy"
+title: "Shellinabox 설치 및 proxy 연동"
 categories: hacking
 author: wschoi
 private: true

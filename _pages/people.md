@@ -20,7 +20,7 @@ excerpt: "구성원"
 
   <td rowspan="5" valign="center" width="160"><img alt="정순영.png" src="/assets/images/jungsy.jpg" editor_component="image_link" width="160" /> </td>
 
-<td>정순영교수님 (교수)</td>
+<td>정순영 교수님</td>
 
 </tr>
 
@@ -44,7 +44,7 @@ excerpt: "구성원"
 
 <tr>
 
-<td> http://dataknow.korea.ac.kr/ </td>
+<td> http://intelligence.korea.ac.kr/ </td>
 
 </tr>
 </tbody>
@@ -734,7 +734,8 @@ Machine Learning (Deep Learning), Data Mining, Big Data<br /> Analytics&amp;Proc
 
 <p class="0"></p>
 
-</td></tr></tbody></table><br />
+</td></tr></tbody></table>
+
 
 <table style="MIN-WIDTH: 50%" class="pure-table pure-table-horizontal" style="text-align:center">
 <tbody>
